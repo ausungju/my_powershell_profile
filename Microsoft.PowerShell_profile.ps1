@@ -2,6 +2,7 @@ function VS(){
 	& 'C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\Tools\Launch-VsDevShell.ps1'
 }
 
+# linux like ls function
 function Get-ChildItemColorized {
     param (
         [Parameter(ValueFromRemainingArguments=$true)]
@@ -30,6 +31,14 @@ function Get-ChildItemColorized {
     }
     Write-Host ""
 }
+
+function .. { Set-Location .. }
+function ... { Set-Location ..\.. }
+function .... { Set-Location ..\..\.. }
+function ..... { Set-Location ..\..\..\.. }
+function ...... { Set-Location ..\..\..\..\.. }
+function .......  { Set-Location ..\..\..\..\..\.. }
+
 
 Set-PSReadlineKeyHandler -Key ctrl+d -Function DeleteCharOrExit
 
