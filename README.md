@@ -1,3 +1,5 @@
+<img width="736" height="284" alt="Image" src="https://github.com/user-attachments/assets/2e146387-23bf-4e88-bd8a-8ebd0956b713" />
+
 # My PowerShell Profile
 
 PowerShell 사용자 경험을 향상시키는 커스텀 프로필 설정입니다.
@@ -77,3 +79,4 @@ winget install Neovim.Neovim
   - 프로필의 경로는 2026 Insiders 기준으로 설정되어 있습니다
   - 다른 버전을 사용하는 경우 `Microsoft.PowerShell_profile.ps1` 파일에서 경로를 수정하세요
   - 경로 형식: `C:\Program Files\Microsoft Visual Studio\[버전]\[에디션]\Common7\Tools\Launch-VsDevShell.ps1`
+
