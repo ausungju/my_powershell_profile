@@ -73,3 +73,7 @@ winget install Neovim.Neovim
 - PowerShell 7+
 - Oh My Posh
 - (선택) Neovim
+- (선택) Visual Studio - VS() 함수 사용 시
+  - 프로필의 경로는 2026 Insiders 기준으로 설정되어 있습니다
+  - 다른 버전을 사용하는 경우 `Microsoft.PowerShell_profile.ps1` 파일에서 경로를 수정하세요
+  - 경로 형식: `C:\Program Files\Microsoft Visual Studio\[버전]\[에디션]\Common7\Tools\Launch-VsDevShell.ps1`
